@@ -1,5 +1,13 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
+echo
+echo 'See https://github.com/microsoft/vscode/issues/64409 if trying to commit with VS Code SCM'
+echo
 
+echo 'Formatting code...'
+echo
 npx lint-staged
+
+echo 'Running TypeScript compiler to check for type errors...'
+echo
 yarn tsc
