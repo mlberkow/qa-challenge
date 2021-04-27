@@ -1,0 +1,11 @@
+{
+  "baseUrl": "https://air-web.vercel.app/",
+  "nodeVersion": "system",
+  "viewportWidth": 1600,
+  "viewportHeight": 1200,
+  "requestTimeout": 10000,
+  "defaultCommandTimeout": 15000,
+  "retries": {
+    "runMode": 2
+  }
+}

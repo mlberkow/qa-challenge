@@ -1,0 +1,32 @@
+# Keep in sync with .eslintignore + .prettierignore
+
+# dependencies
+**/node_modules
+.pnp
+**/.yarn
+
+# testing
+**/coverage
+
+# OS
+**/.DS_Store
+
+# debug
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+
+# local env files
+**/.env.local
+**/.env.development.local
+**/.env.test.local
+**/.env.production.local
+
+# editors
+.idea
+.vim
+
+# cypress artifacts
+cypress/screenshots
+cypress/videos
+cypress/downloads
