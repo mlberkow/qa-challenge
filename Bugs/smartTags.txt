@@ -1,0 +1,10 @@
+Title: Smart Tags are incorrect
+
+Expected Behavior: Smart Tags should be correct
+Actual Behavior: Smart Tags add tags that are incorrect for the image
+
+Steps:
+1. Import an image of a desert sunset (See image in images directory)
+2. Examine smart tags
+
+Notes: It got most of them correct, but there are no buildings and there is no architecture in the image.  As a feature request, I would also add the ability to edit these tags.

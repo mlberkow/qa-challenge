@@ -1,0 +1,14 @@
+Smart Tags Feature request
+
+As a part of keywording and tagging images, those tags should be correct and complete.  One way to accomplish this is to add the ability to edit the tags.
+
+For the same image in the Smart Tags bug, there should be a way to delete the tags that are not correct for the image, and to add tags that would also make sense.
+
+Examples of tags that should be removed:
+  architecture, building, panoramic(in this case, the image is the wrong aspect ratio to be a panorama)
+
+Examples of tags that are questionable and should be up to the discression of the end user:
+  tower (there is a deser tower in the image, but it may or may not be something that the user wants)
+
+Examples of tags that could be added:
+  sunset, desert

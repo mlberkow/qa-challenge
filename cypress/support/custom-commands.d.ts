@@ -5,6 +5,11 @@
 
 declare namespace Cypress {
   interface Chainable {
-    /** Type signatures for methods you define in `~/cypress/support/commands.ts` go here */
+    /**
+     * Signs In with credentials
+     * @example
+     * cy.signInAs('email', 'password')
+     */
+    signInAs(email: string, password: string): Chainable<any>;
   }
 }

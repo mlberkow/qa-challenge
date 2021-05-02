@@ -1,9 +1,10 @@
 describe("Visiting login page", () => {
   describe("as an unauthenticated user", () => {
-    it("works", () => {
+    it("signs in", () => {
       cy.visit("/login");
-      cy.findByTestId("AUTH_LAYOUT_HEADER").should("be.visible");
-      cy.findByLabelText("Email *").type("not-a-real-user@gmail.com");
+      cy.signInAs("default", "default");
+      cy.findByTestId("ACCOUNT_POPOVER_BUTTON").should("have.text", "MB");
+      cy.findByTestId("CURRENT_WORKSPACE_BUTTON").should("have.text", "Test");
     });
   });
 });

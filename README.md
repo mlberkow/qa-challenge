@@ -18,3 +18,11 @@
   want to login or register before you can make in-app assertions.
 
 - We use real data in our integration tests, but you're welcome to use fixtures if that's what you're used to!
+
+## Mike Berkow Notes
+
+- No changes to the install directions
+
+- Bugs are in the `Bugs` directory
+
+- Assets for the bugs are in the `images` sub-directory
